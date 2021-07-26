@@ -21,6 +21,13 @@
 
 .centro-fondo
   background-image: url(../assets/curso/tema1/fondo-centro.svg)
+  margin-inline: -3.3rem 
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: top
+
+/*.fondo-custom
+  background-image: url(../assets/curso/tema1/fondo-centro.svg)
   margin-inline: -3rem 
   background-repeat: no-repeat
   background-size: cover
@@ -47,6 +54,9 @@
 .tabs-c 
     border-bottom: 1px solid #e8e8e8
 
+.tabs-c.color-secundario .tabs-c__tab--active
+  font-weight: bold
+
 .linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
   color: #fff
   font-size: 20px
@@ -54,9 +64,122 @@
 .linea-tiempo-d__item__number 
     font-size: 18px
 
+
+
+.round--number
+  width: 50px
+  height: 50px
+  background-color: white
+  border: 3px solid #12263F
+  border-radius: 999px
+  p 
+    font-size: 25px
+    font-weight: 800
+    text-align: center
+    padding-top: 3px
+
+.tarjeta.tarjeta--gris
+ // padding: 1.5rem
+  border-radius: 0
+
+
+.tarjeta.color-primario
+  background-color: #E6F7FE
+
+
+.tarjeta.color-secundario
+  background-color: #E4DDFA
+
+.bloque-texto-a.color-secundario 
+  background-color: #F6F6F6
+
+.anexo
+  //bottom: 20px
+  //left: 35%
+  //swidth: 450px
+  background-color: #f6f6f6
+
+.fa-atom
+  color: $color-acento-contenido
+
+//tarjeta con extremo color %////
+.tarjeta-avatar-b
+  img 
+    position: relative
+  position: relative 
+
+.tarjetar:before  //linea lateral derecha
+  content: ''
+  background-color:#732be5
+  width: 7px
+  height: 130px
+  display: block
+  position: absolute
+  right: -7px
+  top: 50% 
+  transform: translateY(-50%)
+///////END///////////
+
+///// Tarjeta Hover ////////////////////
+.tarjeta-cyan
+  background-color: #CDEDFC
+  .tarjetaContent
+    .tarjetaImg
+      border-bottom: 7px solid #00BCD4
+    .tarjetaTxt
+      border-top: 7px solid #00BCD4
+
+.tarjeta-purpura
+  //background-color: #E4DDFA
+  background: linear-gradient(180deg,#F5F5F5,#dff0f9)
+  .tarjetaContent
+    .tarjetaImg
+      border-bottom: 7px solid #7E5EE3
+    .tarjetaTxt
+      border-top: 7px solid #7E5EE3
+
+
+$tarjeta-dimension: 300px
+
+.tarjeta-container
+  position: relative
+  overflow: hidden
+  width: $tarjeta-dimension
+  height: $tarjeta-dimension
+  border-radius: 0    
   
+  .tarjetaContent
+    position: relative    
+    top: 0 
+    left: 0      
+    transition: all 0.45s 0s ease;
+    .tarjetaImg, .tarjetaTxt 
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center          
+      width: $tarjeta-dimension
+      height: $tarjeta-dimension
+      padding: 2rem
+    .tarjetaImg     
+    .tarjetaTxt
+      text-align: center
+
+
+  &:hover
+    .tarjetaContent
+      top: -($tarjeta-dimension)
+////FIN TARJETA HOVER //////////
+
+
+
+
+
+
+
+
 @media screen and ( max-width: $bp-max-xs )
-  .fondo-esquina, .centro-fondo
+  .fondo-esquina, .centro-fondo, .fondo-arriba
     margin-inline: -1.4rem 
   .custom-img
     left: 0

@@ -66,7 +66,10 @@
         .row
           .col-lg-4.mb-4.mb-lg-0
             figure
-              img.m-auto(src='@/assets/curso/tema1/img4.png', style='width: 270px')
+              img.m-auto(
+                src='@/assets/curso/tema1/img4.png',
+                style='width: 270px'
+              )
           .col-lg-8
             .row.px-4.mb-4
               .col-12.p-4.custom-card
@@ -146,7 +149,10 @@
 
           .col-md-5
             figure
-              img.mx-auto(src='@/assets/curso/tema1/tema1-1/img5.jpg', alt='Unidad')
+              img.mx-auto(
+                src='@/assets/curso/tema1/tema1-1/img5.jpg',
+                alt='Unidad'
+              )
 
       .py-3.py-md-5(titulo='Participación')
         .row(style='justify-content: center')
@@ -229,7 +235,7 @@
             alt='imagen ambiental',
             style='width: 350px'
           )
-      
+
       .col-lg-6
         p.mb-4 #[strong Leyes]
         LineaTiempoD.color-secundario
@@ -242,13 +248,10 @@
           p.text-medium(numero='9', titulo='Decreto 064 - 2020') Por la cual se modifican los artículos 2.1.3.11, 2.1.3.13, 2.1.5.1, 2.1.7.7, 2.1.7.8 y 2.1.3.17 y se adicionan los artículos 2.1.5.4 y 2.1.5.5 del Decreto 780 de 2016, en relación con los afiliados al régimen subsidiado, la afiliación de oficio y se dictan otras disposiciones.
 
           p.text-medium(numero='10', titulo='Resolución 3374 - 2000') Por la cual se reglamentan los datos básicos que deben reportar los prestadores de servicios de salud y las entidades administradoras de planes de beneficios sobre los servicios de salud prestados.
-          
+
           p.text-medium(numero='11', titulo='Resolución 1448 – 2006') Por la cual se definen las Condiciones de Habilitación para las instituciones que prestan servicios de salud bajo la modalidad de Telemedicina.
 
           p.text-medium(numero='12', titulo='Resolución 4505 – 2012') Establece el reporte relacionado con el registro de actividades de Protección Específica, Detección Temprana y la aplicación de Guías de Atención Integral para las enfermedades de interés en salud pública, de obligatorio cumplimiento, las cuales estarán integradas al Sistema Integral de Información de la Protección Social (SISPRO)
-
-          
-
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -267,56 +270,475 @@
           img.mx-auto(
             src='@/assets/curso/tema1/tema1-1/img10.svg',
             alt='imagen ambiental',
-                style='width: 346px'
+            style='width: 346px'
           )
-
 
     separador
     #t_1_3.titulo-segundo
       .h2 1.3 Actores del SGSSS
 
-
-    .row.justify-content-center.centro-fondo
-      .col-lg-11.ps-5.pe-5
-        p.mb-4 Los actores que intervienen en el Sistema General de Seguridad Social en Salud, son: 
-        .row.justify-content-center
+    .row.justify-content-center.centro-fondo.mb-5
+      .col-lg-12.ps-5.pe-5
+        p.mb-4 Los actores que intervienen en el Sistema General de Seguridad Social en Salud, son:
+        .row(style='justify-content: space-between')
           .col-lg-4
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-3/img1.png',
                 alt='imagen ambiental',
-                    style='width: 335px'
+                style='width: 435px'
               )
           .col-lg-7
+            .row.align-items-start.mb-4
+              .col-auto 
+                .round--number
+                  p 1
+              .col
+                .tarjeta.tarjeta--gris
+                  p.mb-0 El Estado representado por el #[strong Ministerio de Salud y Protección Social], el cual direcciona el sistema.
+            .row.align-items-start.mb-4
+              .col-auto 
+                .round--number
+                  p 2
+              .col
+                .tarjeta.tarjeta--gris
+                  p.mb-0 Los aseguradores que incluyen las Entidades Promotoras de Salud #[strong E.P.S.]
+            .row.align-items-start.mb-4
+              .col-auto 
+                .round--number
+                  p 3
+              .col
+                .tarjeta.tarjeta--gris
+                  p.mb-0 Las Instituciones Prestadoras de Servicios de Salud, 
+                    b I.P.S. 
+                    b-none y las Empresas Sociales del Estado 
+                    b E.S.E., 
+                    b-none en el marco de un sistema dividido en regímenes: régimen subsidiado, régimen contributivo, régimen de población de bajos recursos NO asegurada y regímenes especiales, también llamados de excepción, administrados financieramente por 
+                    b ADRES 
+                    b-none que reemplaza al Fondo de Solidaridad y Garantía (FOSYGA).
+            .row.align-items-start
+              .col-auto 
+                .round--number
+                  p 4
+              .col
+                .tarjeta.tarjeta--gris
+                  p.mb-0 La inspección, Vigilancia y Control de todo el Sistema, depende de organismos como la 
+                    b Super Intendencia Nacional de Salud, 
+                    b-nonw el
+                    b  INVIMA, 
+                    b-none Instituto Nacional de Salud 
+                    b INS 
+                    b-none y los entes territoriales (secretarías departamentales y municipales de salud).
 
+    p.mb-4 De forma gráfica, se puede observar de la siguiente manera:
 
-
-
-
+    figure.mb-4
+      img.mx-auto(
+        src='@/assets/curso/tema1/tema1-3/img2.svg',
+        alt='imagen ambiental',
+      )
 
     separador
     #t_1_4.titulo-segundo
       .h2 1.4 Aseguramiento
 
+    p.mb-4 La Ley 1122 de 2007 define el aseguramiento como: 
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-b.color-primario.p-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            span.mb-0(style='font-size: 20px; font-weight: bold') la administración del riesgo financiero, la gestión del riesgo en salud, la articulación de los servicios, que garantice el acceso efectivo, la garantía de la calidad en la prestación de los servicios de salud y la representación del afiliado ante el prestador y los demás actores sin perjuicio de la autonomía del usuario.
+            i.fas.fa-quote-right
+
+    .row.justify-content-center.mb-4
+      .col-lg-8
+        p.mb-4 Por lo anterior, el aseguramiento es la estrategia del Sistema General de Seguridad Social en Salud (SGSSS) para que la población en general tenga acceso a las instituciones prestadoras de servicios de salud, públicas y privadas, las cuales incluyen el Plan Obligatorio de Salud POS y el Plan de Atención Básica PAB.
+        .cajon.color-secundario.p-4.mb-4
+          p.mb-0 #[strong Existen dos tipos de aseguramiento:] las Entidades Promotoras de Salud, E.P.S. y las Administradoras de Riesgos Laborales, ARL. Profundicemos en cada una de ellas.
+        p.mb-4 La Entidad Promotora de Salud E.P.S., es la encargada de organizar y garantizar la prestación de los servicios del Plan Obligatorio de Salud; además, es responsable de la gestión de riesgos derivados de la enfermedad general y no ocupacional.
+      .col-lg-4
+        figure.mb-4
+          img.mx-auto(
+            src='@/assets/curso/tema1/tema1-4/img1.png',
+            alt='imagen ambiental',
+          )
+
+    p.mb-5 El aseguramiento se realiza a través de dos grandes regímenes:
+
+    .tarjeta--container.row.mb-4
+      .col-md.tarjeta.color-primario.p-5
+        .row.justify-content-center(style='margin-bottom:40px;')
+          .col-4
+            figure
+              img(src='@/assets/curso/tema1/tema1-4/img2.svg', alt='imagen avatar')
+        h2.text-center.mb-4 Contributivo
+        p.text-center Incluye los empleados, empleadores y trabajadores independientes con capacidad de pago, quienes aportan mensualmente para salud y pensión.
+      .col-md.tarjeta.color-secundario.p-5
+        .row.justify-content-center(style='margin-bottom:40px;')
+          .col-4
+            figure
+              img(src='@/assets/curso/tema1/tema1-4/img3.svg', alt='imagen avatar')
+        h2.text-center.mb-4 Subsidiado
+        p.text-center Cobija a todas las personas pobres y vulnerables, donde los servicios de salud están garantizados con los recaudos de solidaridad de los demás participantes en el sistema.
+
+    .row.justify-content-center.centro-fondo
+      .col-lg-12.ps-5.pe-5
+        p.mb-4 Las poblaciones especiales, definidas por el Estado como prioritarias, que no se encuentren afiliadas al régimen contributivo o pertenezcan a un régimen especial (Fuerzas Militares, Policía, Magisterio, funcionarios de universidades públicas y Ecopetrol) o de excepción (población en condición de desplazamiento, comunidades indígenas, desmovilizada del conflicto, población infantil abandonada a cargo del ICBF, personas mayores en centros de protección, y ROM o gitanos), serán afiliadas al sistema, a través del Régimen Subsidiado. Igualmente, aquellas personas sin capacidad de pago o que se encuentran en el limbo administrativo, mientras logran ser beneficiarios del Régimen Subsidiado, tendrán derecho a los servicios de salud que prestan las instituciones públicas y aquellas privadas que tengan contrato con el Estado.
+        .cajon.color-secundario.p-4.mb-5
+          p.mb-0 Las EPS contributivas o subsidiadas, son las responsables de la afiliación, el registro de los afiliados y el recaudo de sus aportes y, a su vez, contratan la prestación de los servicios de salud con las IPS privadas y/o con la Empresas Sociales del Estado.
+        p.mb-4 El segundo tipo de aseguramiento, se refiere a las:
+
+        .row.justify-content-center
+          .col-11
+            .bloque-texto-a.color-secundario.p-4.p-md-4.mb-4 
+              .row.m-0.align-items-center.justify-content-between
+                .col-lg-4.mb-4.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/tema1/tema1-4/img4.svg', alt='imagen de ambiente', style='width: 360px').m-auto
+                .col-lg-8
+                  .bloque-texto-a__texto.p-3
+                    p.mb-0 #[strong Administradoras de Riesgos Laborales (ARL)], responsables de atender los accidentes o enfermedades derivados de los riesgos ocupacionales; todo empleador debe afiliar y aportar por todos y cada uno de sus empleados. Los trabajadores independientes también se deben afiliar a la ARL, de acuerdo al riesgo que genere su ocupación. Con esta afiliación, se cubren todos los gastos ocasionados por eventos en salud en el entorno laboral, así como el pago de los días de incapacidad, derivados de la misma.
+
+
     separador
     #t_1_5.titulo-segundo
       .h2 1.5 Deberes y derechos en salud
+
+    .row.justify-content-center.mb-4
+      .col-lg-9.align-self-center
+        p.mb-4 La nueva carta de derechos y deberes para el usuario del Sistema General de Seguridad Social en Salud, surge de la sentencia T-760 de 2008, luego que la Corte Constitucional estableciera la iniciativa como obligación.
+        .cajon.color-secundario.p-4.mb-0.mb-4
+          p.mb-4 La Superintendencia Nacional de Salud recordó que las entidades del sistema de salud deben brindar a las personas, la información necesaria para acceder a los servicios de salud, con libertad y autonomía.
+        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Información correspondiente a los derechos y deberes de las personas relacionados con el sistema de salud.
+        
+      .col-lg-3
+        figure.mb-2
+          img(src='@/assets/curso/tema1/tema1-5/img1.svg', alt='imagen de ambiente', style='width:336px').mx-auto
+
 
     separador
     #t_1_6.titulo-segundo
       .h2 1.6 Afiliación al SGSSS
 
+    p.mb-0 ¿Sabías que la afiliación al Sistema General de Seguridad Social en Salud, es un acto que se realiza una sola vez? Por medio de ella se adquieren los derechos y obligaciones que del mismo se derivan.
+
+    .row.justify-content-center.mb-2
+      .col-lg-3
+        figure.mb-2
+          img(src='@/assets/curso/tema1/tema1-6/img1.svg', alt='imagen de ambiente', style='width:255px').mx-auto
+      .col-lg-8.align-self-center
+        p.mb-4 Se efectúa con:
+        ul.lista-ul.mb-5.ms-4
+          li 
+            i.fas.fa-atom
+            | El registro en el Sistema de Afiliación Transaccional.
+          li 
+            i.fas.fa-atom
+            | La inscripción a una sola Entidad Promotora de Salud - EPS o Entidad Obligada a Compensar – EOC.
+
+        p.mb-2 Mediante la suscripción del formulario físico o electrónico que adopte el Ministerio de Salud y Protección Social.
+    
+    .row.justify-content-center.mb-4
+      .col-lg-9
+        p.mb-4 Tenga en cuenta que la afiliación al Sistema General de Seguridad Social en Salud, implica:
+        ul.lista-ul.mb-4.ms-5
+          li 
+            i.fas.fa-atom
+            p.mb-0 La declaración de la veracidad de los datos informados y del cumplimiento de las condiciones p.mb-0ara pertenecer al régimen contributivo o al régimen subsidiado. 
+          li 
+            i.fas.fa-atom
+            p.mb-0 La aceptación de las condiciones propias del régimen contributivo o subsidiado y aquellas relacionadas con las cuotas moderadoras y copagos para la prestación de los servicios, de conformidad con las normas vigentes, las cuales deberán ser informadas al afiliado.
+        .cajon.color-secundario.p-4.mb-0.mb-3
+          p.mb-0 En el Sistema General de Seguridad Social en Salud no habrá afiliaciones retroactivas (Artículo 2.1.3.1 del Decreto 780 del 2016).
+      .col-lg-3
+        figure.mb-2
+          img(src='@/assets/curso/tema1/tema1-6/img2.svg', alt='imagen de ambiente', style='width: 313px;').mx-auto
+
+    p.mb-5 Los siguientes conceptos se deben tener siempre presentes en las afiliaciones:
+
+    .row.justify-content-center.mb-5
+      .col-lg-11
+        LineaTiempoD.color-secundario
+          .row(numero="1" titulo="Afiliaciones colectivas",  style='justify-content: space-around')
+            .col-md-3.mt-4
+              figure
+                img(src='@/assets/curso/tema1/tema1-6/img3.svg', alt='imagen de ambiente' style='width: 221px;').mx-auto
+                
+            .col-md-8.mb-4.mb-md-0.align-self-center
+              p La afiliación al Sistema de Seguridad Social Integral, podrá realizarse de manera colectiva, solamente a través de las asociaciones, agremiaciones y congregaciones religiosas autorizadas previamente por el Ministerio de Salud y Protección Social, en los términos y condiciones previstos en los artículos 3.2.6.1 a 3.2.6.13 del decreto 780 del 2016.
+
+          .row(numero="2" titulo="Portabilidad", style='justify-content: space-around')
+            .col-lg-12.mb-4.mt-3.px-4
+              p.mb-0 Es la garantía de la accesibilidad a los servicios de salud, en cualquier municipio del territorio nacional, para todo afiliado al Sistema General de Seguridad Social en Salud, que emigre del municipio, domicilio de afiliación, o de aquel donde habitualmente recibe los servicios de salud.
+            .col-md-3
+              figure
+                img(src='@/assets/curso/tema1/tema1-6/img4.svg', alt='imagen de ambiente' style='width: 225px;').mx-auto
+                
+            .col-md-8.mb-4.mb-md-0
+              .cajon.color-secundario.p-4.mb-2
+                p.mb-0 Las Entidades Promotoras de Salud garantizarán a sus afiliados el acceso a los servicios de salud, en un municipio diferente a aquel donde habitualmente se reciben los servicios de salud en una IPS primaria, cuando se presente cualquiera de las siguientes circunstancias, producto de la emigración ocasional, temporal o permanente de un afiliado. (Artículo o 2.1.12.4 y 2.1.12.5 del Decreto 780 del 2016)
+            
+          .row(numero="3" titulo="Movilidad",  style='justify-content: space-around')
+            .col-md-3.mt-4
+              figure
+                img(src='@/assets/curso/tema1/tema1-6/img5.svg', alt='imagen de ambiente' style='width: 243px;')
+                
+            .col-md-8.mb-4.mb-md-0.align-self-center
+              p Es el cambio de pertenencia a un régimen dentro de la misma EPS, para los afiliados en el Sistema General de Seguridad Social en Salud, focalizados en los niveles I y II del SISBÉN y algunas poblaciones especiales.
+            
+          .row(numero="4" titulo="Multiafiliación",  style='justify-content: space-around')
+            .col-md-3.mt-4
+              figure
+                img(src='@/assets/curso/tema1/tema1-6/img6.svg', alt='imagen de ambiente' style='width: 223px;')
+                
+            .col-md-8.mb-4.mb-md-0.align-self-center
+              p Afiliación simultánea de una persona, a dos o más entidades pertenecientes al régimen contributivo, o la afiliación tanto al régimen contributivo, como al subsidiado.
+
+
+
     separador
     #t_1_7.titulo-segundo
       .h2 1.7 Prestación del servicio y planes de beneficios
 
+    p.mb-5 La prestación del servicio de salud es realizada por:
+
+    .row.justify-content-center
+      .col-lg-11
+        .tarjeta--container.row.mb-5
+          .col-md.tarjeta.color-primario.p-5
+            .row.justify-content-center(style='margin-bottom:40px;')
+              .col-4
+                figure
+                  img(src='@/assets/curso/tema1/tema1-7/img1.svg', alt='imagen avatar')
+            h2.text-center.mb-4 IPS
+            p.text-center Instituciones Prestadoras de <br>Servicios de Salud.
+          .col-md.tarjeta.color-secundario.p-5
+            .row.justify-content-center(style='margin-bottom:40px;')
+              .col-4
+                figure
+                  img(src='@/assets/curso/tema1/tema1-7/img2.svg', alt='imagen avatar')
+            h2.text-center.mb-4 IPSI
+            p.text-center Instituciones Prestadoras de Servicios<br> de Salud Indígena
+
+
+    p.mb-4 Estas instituciones están compuestas por los hospitales, clínicas, laboratorios, centros de apoyo y diagnóstico, consultorios, transporte especializado de pacientes, centros de rehabilitación, entre otras. Pueden ser públicas o privadas y suministran el servicio de salud en los diferentes niveles de complejidad y de atención, según el tipo de servicios que habiliten y acreditan, es decir, de acuerdo con la capacidad instalada, tecnología y talento humano en salud.
+    p.mb-4 Estos niveles de complejidad se clasifican en:
+
+    TabsC.color-secundario.mb-5
+      .py-3.py-md-5(titulo='Baja complejidad')
+        .row(style='justify-content: space-around')
+          .col-md-5.mb-4.mb-md-0.align-self-center
+            h2 Baja complejidad
+            p Instituciones prestadoras de servicios de salud, que realizan intervenciones y actividades de Promoción de la salud y Prevención de la enfermedad, consulta médica y odontológica, hospitalización con una baja capacidad instalada, atención de urgencias, partos de baja complejidad y servicios de apoyo diagnóstico básicos, en lo que se denomina #[strong primer nivel de atención.]
+
+          .col-md-5
+            figure
+              img.mx-auto(
+                src='@/assets/curso/tema1/tema1-7/img3.png',
+                alt='Baja complejidad',
+                style='width: 520px;'
+              )
+
+      .py-3.py-md-5(titulo='Mediana complejidad')
+        .row(style='justify-content: space-around')
+          .col-md-5.mb-4.mb-md-0.align-self-center
+            h2 Mediana complejidad
+            p Instituciones prestadoras de servicios de salud, que cuentan con atención de las especialidades básicas: pediatría, cirugía general, medicina interna, ortopedia y ginecobstetricia, con disponibilidad las 24 horas en servicios de hospitalización y urgencias; además, ofrecen servicios de consulta externa por especialista y laboratorios de mayor complejidad y todo lo anterior se relaciona con #[strong segundo nivel de atención.]
+
+          .col-md-5
+            figure
+              img.mx-auto(
+                src='@/assets/curso/tema1/tema1-7/img4.png',
+                alt='Mediana complejidad'
+              )
+
+      .py-3.py-md-5(titulo='Alta complejidad')
+        .row(style='justify-content: space-around')
+          .col-md-5.mb-4.mb-md-0.align-self-center
+            h2 Alta complejidad
+            p Instituciones prestadoras de servicios de salud, que cuentan con servicios que incluyen especialidades tales como neurocirugía, cirugía vascular, neumología, nefrología, dermatología, etc., con atención por especialista las 24 horas, consulta externa, servicio de urgencias, radiología intervencionista, medicina nuclear, unidades especiales como cuidados intensivos, cuidados intermedios y unidad renal. Estas instituciones con servicios de alta complejidad, atienden el 
+              b tercer nivel de atención, 
+              b-none que incluye casos y eventos o tratamientos, considerados como de 
+              b alto costo en el POS.
+
+          .col-md-5
+            figure
+              img.mx-auto(
+                src='@/assets/curso/tema1/tema1-7/img5.png',
+                alt='Alta complejidad'
+              )
+
     .h3.mb-4 Redes integrales de prestadores de servicio de salud - RIPSS
-    .h3.mb-4 Red de prestación de servicios
+
+    p.mb-4 Es el conjunto articulado de prestadores de servicios de salud, o de organizaciones funcionales de servicios de salud, públicos, privados o mixtos, ubicados en un ámbito territorial definido, de acuerdo con las condiciones de operación del MIAS (actualmente MAITE). El objetivo de las RIPSS, es el de garantizar el acceso efectivo a los servicios de salud, y la atención oportuna, continua, integral y resolutiva.
+    p.mb-5 La siguiente imagen nos presenta, de forma gráfica, qué es el RIPSS.
+
+    figure.mb-5
+      img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img6.svg', alt='REDES INTEGRALES DE PRESTADORES DE SERVICIOS DE SALUD')
+      figcaption Fuente: Tomada de MINSALUD
+
+    
+    .row.justify-content-center.centro-fondo.mb-5
+      .col-lg-11
+        .h3.mb-4 Red de prestación de servicios
+        p.mb-4 La siguiente imagen nos presenta qué es la red de prestación de servicios.
+        .row(style='justify-content:center')
+          .col-lg-4
+            figure.mb-2
+              img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img7.svg', alt='imagen ambientas', style='width:465px')
+          .col-lg-7
+            LineaTiempoD.color-secundario
+              p.text-medium(numero='1', titulo='¿Qué es?') Es un conjunto articulado de prestadores de servicios de salud, ubicados en el mismo espacio geográfico, que trabajan de manera organizada y coordinada, en un proceso de integralidad con la entidad responsable de pago. 
+              p.text-medium(numero='2', titulo='¿Qué busca?') Garantizar la calidad de la atención en salud y brindar, una respuesta adecuada a las necesidades de la población, en condiciones de accesibilidad, continuidad, oportunidad, integralidad y eficiencia en el uso de los recursos. 
+              p.text-medium(numero='3', titulo='¿Cómo está formada?') Está conformada por cada entidad responsable de pago e integrada a la red departamental de prestadores de servicios de salud, definida por la entidad territorial departamental en su documento de red, indicando a los prestadores con su identificación, ubicación geográfica, grado de complejidad de servicios habilitados, mecanismos de difusión y comunicación a los usuarios, así como también los indicadores definidos por el sistema obligatorio de garantía de calidad de la atención en salud, además del diseño, organización y documentación del sistema de referencia y contrarreferencia, que involucre las normas operacionales, sistemas de información y recursos logísticos, requeridos para la operación de la red. 
+
+    p.mb-4 Para comprender qué es el sistema de referencia y contrareferencia, primero hay que definir qué es referencia y qué es contrareferencia.
+
+    .row.justify-content-center
+      .col-lg-11
+        .tarjeta-avatar-b.tarjetar.mb-5
+          img(src='@/assets/curso/tema1/tema1-7/icon1.svg' alt='AvatarTop', style='')
+          .tarjeta.tarjeta--gris.p-4(style='border-radius:0;')
+            
+              h4(style="padding-left: 70px;") Referencia
+              p(style="padding-left: 70px;") Es el envío de pacientes o elementos de ayuda diagnóstica, por parte de un prestador de servicios de salud, a otro prestador, para atención o complementación diagnóstica. Considera el nivel de resolución y se realiza con el fin de dar respuesta a las necesidades de salud individuales de los pacientes que lo requieran. Por ejemplo, cuando un médico general o un médico especialista requiere la valoración o concepto de una especialidad diferente, el paciente es remitido a otra IPS de otro nivel de complejidad, perteneciente a la misma red de prestadores de servicios.
+    
+    .row.justify-content-center.mb-4
+      .col-lg-11
+        .tarjeta-avatar-b.tarjetar.mb-5
+          img(src='@/assets/curso/tema1/tema1-7/icon2.svg' alt='AvatarTop', style='')
+          .tarjeta.tarjeta--gris.p-4(style='border-radius:0;')
+              h4(style="padding-left: 70px;") Contrareferencia
+              p(style="padding-left: 70px;") Es la respuesta que el prestador de servicios de salud, receptor de la referencia, da al prestador que remitió. La respuesta puede ser la contra remisión del paciente con las debidas indicaciones a seguir, o simplemente la información sobre la atención prestada al paciente en la institución receptora, o el resultado de las solicitudes de ayuda diagnóstica.
+
+    p.mb-4 Entonces, el sistema de referencia y contrareferencia se definen como:
+    .cajon.color-secundario.p-4.mb-4
+      p.mb-0 El conjunto de procesos, procedimientos y actividades técnicas y administrativas, que permiten brindar adecuadamente los servicios de salud a los pacientes, garantizando la calidad, accesibilidad, oportunidad, continuidad e integralidad de los servicios, en función de la organización de la red de prestación de servicios definida por la entidad responsable del pago; disminuyendo de esta manera, todas las barreras de acceso y las complicaciones futuras en los pacientes.
+    p.mb-5 La siguiente imagen nos presenta un ejemplo de sistema de referencia y contrareferencia.
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        figure
+          img(src='@/assets/curso/tema1/tema1-7/img8.svg' alt='AvatarTop', style='').mx-auto
+
+    p.mb-4 En la red de prestación de servicios, existen los siguientes tipos de atención:
+
+    TabsC.color-secundario.mb-5
+      .py-3.py-md-5(titulo='Atención extramural')
+        .row(style='justify-content: center')
+          .col-md-6.mb-4.mb-md-0.align-self-center
+            h2 Atención extramural
+            p Es la atención en salud, fuera de la institución prestadora de servicios de salud, como por ejemplo la residencia del paciente, un centro de bienestar para el adulto mayor o entornos de salud, que se definan como de difícil acceso; en esta atención, se involucran diferentes profesionales, técnicos y/o auxiliares del área de la salud y la participación de la familia o cuidador del paciente; hacen parte de esta atención, las brigadas, jornadas, unidades móviles en cualquiera de sus modalidades, y la atención domiciliaria.
+
+          .col-md-5
+            figure
+              img.mx-auto(
+                src='@/assets/curso/tema1/tema1-7/img9.jpg',
+                alt='',
+                style='width: 487'
+              )
+
+      .py-3.py-md-5(titulo='Atención domiciliaria')
+        .row(style='justify-content: center')
+          .col-md-6.mb-4.mb-md-0.align-self-center
+            h2 Atención domiciliaria
+            p Prestación de servicios de salud, directamente en la casa o domicilio del paciente; incluye servicios personales de enfermería, ocupacional y consulta médica. La hospitterapia alización en casa, concentra la atención en la familia y o el cuidador del paciente, dependiente o con alto riesgo de complicación, en un servicio de hospitalización. El paciente que va a recibir atención domiciliaria, debe cumplir con los criterios de estabilidad clínica, cuidadores competentes, entorno apropiado, y disponibilidad del servicio profesional que supervise el tratamiento. Estos cuidados permiten reducir costos hospitalarios, mejorar la calidad de la atención, y favorecer la permanencia de los adultos mayores o personas con dependencia funcional, en su entorno familiar y/o en la comunidad.
+
+          .col-md-5
+            figure
+              img.mx-auto(
+                src='@/assets/curso/tema1/tema1-7/img10.jpg',
+                alt=''
+              )
+
+      .py-3.py-md-5(titulo='Telemedicina')
+        .row(style='justify-content: center')
+          .col-md-6.mb-4.mb-md-0.align-self-center
+            h2 Telemedicina
+            p Provisión de servicios de salud a distancia, en los componentes de promoción, prevención, diagnóstico, tratamiento o rehabilitación, por profesionales de la salud que utilizan tecnologías de la información y la comunicación, les permiten intercambiar datos con el propósito de facilitar el acceso de la población a servicios que presentan limitaciones de oferta, de acceso a los servicios, o de ambos en su área geográfica.
+
+          .col-md-5
+            figure
+              img.mx-auto(
+                src='@/assets/curso/tema1/tema1-7/img11.jpg',
+                alt=''
+              )
+
+
     .h3.mb-4 Plan de Beneficios en Salud
+
+    p.mb-4 Es el conjunto de los servicios de atención en salud, a los que tiene derecho todo afiliado al SGSSS.
+    p.mb-4 Los tipos de planes de beneficios son:
+
+    .row.justify-content-center.mb-5
+      .col-lg-12
+        .row(style='justify-content:space-between')
+            .col-lg-4
+              figure.mb-2
+                img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img12.png', alt='imagen ambientas', style='width:462px').mx-auto
+            .col-lg-7
+              LineaTiempoD.color-secundario
+                p.text-medium(numero='1', titulo='Plan atención básica') Denominado, posteriormente, Plan Nacional de Salud Pública, configurado por acciones gratuitas y primordialmente colectivas, de promoción de la salud, prevención de la enfermedad y, en algunos casos, acciones individuales de diagnóstico y tratamiento de algunas enfermedades de interés en salud pública, provistas por la red pública de prestadores y administrado por las entidades territoriales.
+                p.text-medium(numero='2', titulo='Plan obligatorio de salud') Compuesto, principalmente, por acciones individuales de prevención primaria, secundaria y terciaria. Actualmente unificado el POS para el régimen contributivo y el régimen subsidiado. Están a cargo de las EPS.
+                p.text-medium(numero='3', titulo='Planes voluntarios adicionales de salud')  Financiados voluntariamente por los usuarios que deben complementar en el POS, con prestaciones suntuarias o de mayor tecnología. Son los planes de medicina prepagada, planes complementarios y pólizas de hospitalización y cirugía, provistos por empresas registradas para ese propósito.
+                p.text-medium(numero='4', titulo='Seguro obligatorio de accidentes de tránsito – SOAT') Cubre eventos de origen en accidentes de tránsito, hasta un monto determinado y de forma complementaria al POS. Provistos por compañías de seguros autorizadas hasta un monto definido, después del cual son financiados por la subcuenta específica de atención de Eventos Catastróficos y Accidentes de tránsito –ECAT. 
+                p.text-medium(numero='5', titulo='Cobertura de riesgos laborales') Cubre todo evento o enfermedad de origen ocupacional sin los límites del POS. Son garantizados por las Administradoras de Riesgos Laborales-ARL.
+                p.text-medium(numero='6', titulo='Atención de eventos catastróficos') Cubre eventos definidos como catastróficos (inundaciones, terremotos, etc.) con recursos específicos para tal fin y de forma complementaria al POS. Son financiados por el Fosyga mediante la subcuenta ECAT.
+    
+    .cajon.color-secundario.p-4.mb-4
+      p.mb-0 También existen los planes de cobertura, provistos a la población víctima de desplazamiento forzado y la población interna en establecimientos carcelarios que, usualmente, son suplementarios al POS. Aquí también se deben considerar las acciones de atención con tecnología en salud no cubierta por el POS y la atención de personas no afiliadas a un régimen de seguridad social en salud, que son provistas en la red pública, a cargo de las entidades territoriales (distritos, departamentos y municipios) y financiadas con los denominados recursos de subsidio a la demanda. Actualmente se le conoce como Plan de Intervenciones Colectivas -PIC.
+
 
     separador
     #t_1_8.titulo-segundo
       .h2 1.8 Inspección, Vigilancia y Control - IVC
+
+    p.mb-4 Las organizaciones que componen el Sistema de Seguridad Social en Salud, como todas las Instituciones del Estado, están sujetas a tres tipos de control:
+
+
+    .row.justify-content-center.mb-5
+      .col-auto.mb-4
+        .tarjeta.tarjeta-container.tarjeta-purpura
+          .tarjetaContent
+            .tarjetaImg
+              figure.mb-3
+                img(src="@/assets/curso/tema1/tema1-8/icon1.svg", alt="acceso", style="width:120px;").m-auto
+              h4.text-center Control <br>pólitico
+            .tarjetaTxt
+              p.mb-0 Se establece a través de las corporaciones públicas como el Congreso de la República, las Asambleas Departamentales y los Concejos Municipales. 
+      
+      .col-auto.mb-4
+        .tarjeta.tarjeta-container.tarjeta-purpura
+          .tarjetaContent
+            .tarjetaImg
+              figure.mb-3
+                img(src="@/assets/curso/tema1/tema1-8/icon2.svg", alt="acceso", style="width:120px;").m-auto
+              h5.text-center Control<br>externo
+            .tarjetaTxt
+              p.mb-0 Corresponde a las instituciones de fiscalización del Estado, tales como la Contraloría, Procuraduría, Superintendencias, entre otros.
+      
+      .col-auto.mb-4
+        .tarjeta.tarjeta-container.tarjeta-purpura
+          .tarjetaContent
+            .tarjetaImg
+              figure.mb-3
+                img(src="@/assets/curso/tema1/tema1-8/icon3.svg", alt="acceso", style="width:120px;").m-auto
+              h5.text-center Control <br> social
+            .tarjetaTxt
+              p.mb-0 Proviene de los ciudadanos, a través de las veedurías ciudadanas y las asociaciones de usuarios.
+
+
+    p.mb-4 Los aspectos que han sido sujetos de Inspección, Vigilancia y Control, en todos los procesos y procedimientos de los diferentes actores del SGSSS, entre otros, son: 
+
+
+
+
 
     separador
     #t_1_9.titulo-segundo
