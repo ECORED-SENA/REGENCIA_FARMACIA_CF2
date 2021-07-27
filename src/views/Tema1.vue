@@ -24,7 +24,7 @@
                 h3 Sistema de Salud Colombiano
               p.mb-4 La siguiente infografía presenta cómo era el sistema de salud antes de la Ley 100 de 1993, y cómo llegó a constituirse en un modelo para contribuir y apoyar la gestión, brindando protección a toda la población.
               a.boton.color-acento-botones(
-                :href='obtenerLink("/downloads/prueba.pdf")',
+                :href='obtenerLink("/downloads/sistema-salud-colombiano.pdf")',
                 target='_blank',
                 type='application/pdf'
               )
@@ -411,7 +411,7 @@
         p.mb-4 La nueva carta de derechos y deberes para el usuario del Sistema General de Seguridad Social en Salud, surge de la sentencia T-760 de 2008, luego que la Corte Constitucional estableciera la iniciativa como obligación.
         .cajon.color-secundario.p-4.mb-0.mb-4
           p.mb-4 La Superintendencia Nacional de Salud recordó que las entidades del sistema de salud deben brindar a las personas, la información necesaria para acceder a los servicios de salud, con libertad y autonomía.
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/DerechosyDeberes.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
