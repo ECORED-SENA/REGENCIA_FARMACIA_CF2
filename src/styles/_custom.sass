@@ -19,19 +19,13 @@
   margin-right: 15px
   margin-left: -40px
 
-.centro-fondo
+.centro-fondo--arriba
   background-image: url(../assets/curso/tema1/fondo-centro.svg)
   margin-inline: -3.3rem 
   background-repeat: no-repeat
-  background-size: cover
+  background-size: auto
   background-position: top
-
-/*.fondo-custom
-  background-image: url(../assets/curso/tema1/fondo-centro.svg)
-  margin-inline: -3rem 
-  background-repeat: no-repeat
-  background-size: cover
-  background-position: top
+  
 
 
 
@@ -173,13 +167,44 @@ $tarjeta-dimension: 300px
 
 
 
+.tabs-b__tab
+  filter: opacity(0.5)
+.tabs-b__tab--active
+  filter: none
 
+//////////////////////////////TEMA 2///////////////////
+.fondo-custom
+  background-image: url(../assets/curso/tema2/fondo-top.svg)
+  margin-inline: -3.3rem 
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: top
 
+//linea de pasos 
 
+.pasos-a.color-acento-contenido .pasos-a__circle 
+  background-color: #ffffff
+  border: 3px solid #732be5
+.pasos-a__circle 
+  width: 60px
+  height: 60px
+.pasos-a.color-acento-contenido .pasos-a__circle div 
+  color: #000
 
+.pasos-a.color-acento-contenido .pasos-a__linea__esquina__linea 
+  border-color: #000
+
+.pasos-a.color-acento-contenido .pasos-a__linea .hor-line 
+  border-top-color: #000
+
+.pasos-a.color-acento-contenido .pasos-a__numero::after 
+  border-left-color: #000000
+
+.bloque-texto-a:before
+  left: 60%
 
 @media screen and ( max-width: $bp-max-xs )
-  .fondo-esquina, .centro-fondo, .fondo-arriba
+  .fondo-esquina, .centro-fondo--arriba, .fondo-custom
     margin-inline: -1.4rem 
   .custom-img
     left: 0

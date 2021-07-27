@@ -95,7 +95,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '3',
         titulo:
-          'Sistema Obligatorio de Garantía de Calidad de Atención en Salud del Sistema General de Seguridad Social en Salud - SOGCS',
+          'Sistema Obligatorio de Garantía de Calidad de Atención en Salud del Sistema General de Seguridad Social en Salud - SOGCS-',
         desarrolloContenidos: true,
         subMenu: [
           {

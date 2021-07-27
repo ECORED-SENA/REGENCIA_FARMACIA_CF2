@@ -61,12 +61,12 @@
             alt='¿Quiénes forman parte del Sistema General de Seguridad Social en Salud?'
           )
 
-    .row.justify-content-center.centro-fondo
+    .row.justify-content-center.centro-fondo--arriba
       .col-lg-11
         .row
           .col-lg-4.mb-4.mb-lg-0
             figure
-              img.m-auto(
+              img.mx-auto(
                 src='@/assets/curso/tema1/img4.png',
                 style='width: 270px'
               )
@@ -201,7 +201,7 @@
     #t_1_2.titulo-segundo
       .h2 1.2 Normativa del SGSSS
 
-    .row.justify-content-center.centro-fondo
+    .row.justify-content-center.centro-fondo--arriba
       .col-lg-12.ps-5.pe-5
         p.mb-4 La normativa que fortalece y apalanca el S.G.S.S.S, se basa en leyes, decretos y resoluciones que durante 28 años han sido parte de la transformación y desarrollo del sistema, siempre enfocándose en la búsqueda de una mayor cobertura y mejor oportunidad de atención de las necesidades de salud que tenemos todos los colombianos; a continuación, se revisará la línea de tiempo con una parte significativa de la normativa que ha generado un cambio en la historia de todo el sistema de salud.
         p.mb-4 Estas normas son las siguientes:
@@ -277,38 +277,38 @@
     #t_1_3.titulo-segundo
       .h2 1.3 Actores del SGSSS
 
-    .row.justify-content-center.centro-fondo.mb-5
+    .row.justify-content-center.centro-fondo--arriba.mb-5
       .col-lg-12.ps-5.pe-5
-        p.mb-4 Los actores que intervienen en el Sistema General de Seguridad Social en Salud, son:
+        p.mb-5 Los actores que intervienen en el Sistema General de Seguridad Social en Salud, son:
         .row(style='justify-content: space-between')
           .col-lg-4
             figure
-              img.mx-auto(
+              img.mx-auto.mb-5(
                 src='@/assets/curso/tema1/tema1-3/img1.png',
                 alt='imagen ambiental',
                 style='width: 435px'
               )
-          .col-lg-7
+          .col-lg-7.align-self-center
             .row.align-items-start.mb-4
               .col-auto 
                 .round--number
                   p 1
               .col
-                .tarjeta.tarjeta--gris
+                .tarjeta.tarjeta--gris.p-4(style='border-radius:0')
                   p.mb-0 El Estado representado por el #[strong Ministerio de Salud y Protección Social], el cual direcciona el sistema.
             .row.align-items-start.mb-4
               .col-auto 
                 .round--number
                   p 2
               .col
-                .tarjeta.tarjeta--gris
+                .tarjeta.tarjeta--gris.p-4(style='border-radius:0')
                   p.mb-0 Los aseguradores que incluyen las Entidades Promotoras de Salud #[strong E.P.S.]
             .row.align-items-start.mb-4
               .col-auto 
                 .round--number
                   p 3
               .col
-                .tarjeta.tarjeta--gris
+                .tarjeta.tarjeta--gris.p-4(style='border-radius:0')
                   p.mb-0 Las Instituciones Prestadoras de Servicios de Salud, 
                     b I.P.S. 
                     b-none y las Empresas Sociales del Estado 
@@ -321,7 +321,7 @@
                 .round--number
                   p 4
               .col
-                .tarjeta.tarjeta--gris
+                .tarjeta.tarjeta--gris.p-4(style='border-radius:0')
                   p.mb-0 La inspección, Vigilancia y Control de todo el Sistema, depende de organismos como la 
                     b Super Intendencia Nacional de Salud, 
                     b-nonw el
@@ -383,7 +383,7 @@
         h2.text-center.mb-4 Subsidiado
         p.text-center Cobija a todas las personas pobres y vulnerables, donde los servicios de salud están garantizados con los recaudos de solidaridad de los demás participantes en el sistema.
 
-    .row.justify-content-center.centro-fondo
+    .row.justify-content-center.centro-fondo--arriba.mb-5
       .col-lg-12.ps-5.pe-5
         p.mb-4 Las poblaciones especiales, definidas por el Estado como prioritarias, que no se encuentren afiliadas al régimen contributivo o pertenezcan a un régimen especial (Fuerzas Militares, Policía, Magisterio, funcionarios de universidades públicas y Ecopetrol) o de excepción (población en condición de desplazamiento, comunidades indígenas, desmovilizada del conflicto, población infantil abandonada a cargo del ICBF, personas mayores en centros de protección, y ROM o gitanos), serán afiliadas al sistema, a través del Régimen Subsidiado. Igualmente, aquellas personas sin capacidad de pago o que se encuentran en el limbo administrativo, mientras logran ser beneficiarios del Régimen Subsidiado, tendrán derecho a los servicios de salud que prestan las instituciones públicas y aquellas privadas que tengan contrato con el Estado.
         .cajon.color-secundario.p-4.mb-5
@@ -392,7 +392,7 @@
 
         .row.justify-content-center
           .col-11
-            .bloque-texto-a.color-secundario.p-4.p-md-4.mb-4 
+            .bloque-texto-a.color-secundario.p-4.p-md-4.mb-5
               .row.m-0.align-items-center.justify-content-between
                 .col-lg-4.mb-4.mb-lg-0
                   figure
@@ -402,7 +402,7 @@
                     p.mb-0 #[strong Administradoras de Riesgos Laborales (ARL)], responsables de atender los accidentes o enfermedades derivados de los riesgos ocupacionales; todo empleador debe afiliar y aportar por todos y cada uno de sus empleados. Los trabajadores independientes también se deben afiliar a la ARL, de acuerdo al riesgo que genere su ocupación. Con esta afiliación, se cubren todos los gastos ocasionados por eventos en salud en el entorno laboral, así como el pago de los días de incapacidad, derivados de la misma.
 
 
-    separador
+      separador
     #t_1_5.titulo-segundo
       .h2 1.5 Deberes y derechos en salud
 
@@ -584,13 +584,13 @@
       figcaption Fuente: Tomada de MINSALUD
 
     
-    .row.justify-content-center.centro-fondo.mb-5
+    .row.justify-content-center.centro-fondo--arriba.mb-5
       .col-lg-11
         .h3.mb-4 Red de prestación de servicios
         p.mb-4 La siguiente imagen nos presenta qué es la red de prestación de servicios.
         .row(style='justify-content:center')
           .col-lg-4
-            figure.mb-2
+            figure.mb-5
               img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img7.svg', alt='imagen ambientas', style='width:465px')
           .col-lg-7
             LineaTiempoD.color-secundario
@@ -598,24 +598,24 @@
               p.text-medium(numero='2', titulo='¿Qué busca?') Garantizar la calidad de la atención en salud y brindar, una respuesta adecuada a las necesidades de la población, en condiciones de accesibilidad, continuidad, oportunidad, integralidad y eficiencia en el uso de los recursos. 
               p.text-medium(numero='3', titulo='¿Cómo está formada?') Está conformada por cada entidad responsable de pago e integrada a la red departamental de prestadores de servicios de salud, definida por la entidad territorial departamental en su documento de red, indicando a los prestadores con su identificación, ubicación geográfica, grado de complejidad de servicios habilitados, mecanismos de difusión y comunicación a los usuarios, así como también los indicadores definidos por el sistema obligatorio de garantía de calidad de la atención en salud, además del diseño, organización y documentación del sistema de referencia y contrarreferencia, que involucre las normas operacionales, sistemas de información y recursos logísticos, requeridos para la operación de la red. 
 
-    p.mb-4 Para comprender qué es el sistema de referencia y contrareferencia, primero hay que definir qué es referencia y qué es contrareferencia.
+        p.mb-4 Para comprender qué es el sistema de referencia y contrareferencia, primero hay que definir qué es referencia y qué es contrareferencia.
 
-    .row.justify-content-center
-      .col-lg-11
-        .tarjeta-avatar-b.tarjetar.mb-5
-          img(src='@/assets/curso/tema1/tema1-7/icon1.svg' alt='AvatarTop', style='')
-          .tarjeta.tarjeta--gris.p-4(style='border-radius:0;')
-            
-              h4(style="padding-left: 70px;") Referencia
-              p(style="padding-left: 70px;") Es el envío de pacientes o elementos de ayuda diagnóstica, por parte de un prestador de servicios de salud, a otro prestador, para atención o complementación diagnóstica. Considera el nivel de resolución y se realiza con el fin de dar respuesta a las necesidades de salud individuales de los pacientes que lo requieran. Por ejemplo, cuando un médico general o un médico especialista requiere la valoración o concepto de una especialidad diferente, el paciente es remitido a otra IPS de otro nivel de complejidad, perteneciente a la misma red de prestadores de servicios.
-    
-    .row.justify-content-center.mb-4
-      .col-lg-11
-        .tarjeta-avatar-b.tarjetar.mb-5
-          img(src='@/assets/curso/tema1/tema1-7/icon2.svg' alt='AvatarTop', style='')
-          .tarjeta.tarjeta--gris.p-4(style='border-radius:0;')
-              h4(style="padding-left: 70px;") Contrareferencia
-              p(style="padding-left: 70px;") Es la respuesta que el prestador de servicios de salud, receptor de la referencia, da al prestador que remitió. La respuesta puede ser la contra remisión del paciente con las debidas indicaciones a seguir, o simplemente la información sobre la atención prestada al paciente en la institución receptora, o el resultado de las solicitudes de ayuda diagnóstica.
+        .row.justify-content-center
+          .col-lg-11
+            .tarjeta-avatar-b.tarjetar.mb-5
+              img(src='@/assets/curso/tema1/tema1-7/icon1.svg' alt='AvatarTop', style='')
+              .tarjeta.tarjeta--gris.p-4(style='border-radius:0;')
+                
+                  h4(style="padding-left: 70px;") Referencia
+                  p(style="padding-left: 70px;") Es el envío de pacientes o elementos de ayuda diagnóstica, por parte de un prestador de servicios de salud, a otro prestador, para atención o complementación diagnóstica. Considera el nivel de resolución y se realiza con el fin de dar respuesta a las necesidades de salud individuales de los pacientes que lo requieran. Por ejemplo, cuando un médico general o un médico especialista requiere la valoración o concepto de una especialidad diferente, el paciente es remitido a otra IPS de otro nivel de complejidad, perteneciente a la misma red de prestadores de servicios.
+        
+        .row.justify-content-center.mb-4
+          .col-lg-11
+            .tarjeta-avatar-b.tarjetar.mb-5
+              img(src='@/assets/curso/tema1/tema1-7/icon2.svg' alt='AvatarTop', style='')
+              .tarjeta.tarjeta--gris.p-4(style='border-radius:0;')
+                  h4(style="padding-left: 70px;") Contrareferencia
+                  p(style="padding-left: 70px;") Es la respuesta que el prestador de servicios de salud, receptor de la referencia, da al prestador que remitió. La respuesta puede ser la contra remisión del paciente con las debidas indicaciones a seguir, o simplemente la información sobre la atención prestada al paciente en la institución receptora, o el resultado de las solicitudes de ayuda diagnóstica.
 
     p.mb-4 Entonces, el sistema de referencia y contrareferencia se definen como:
     .cajon.color-secundario.p-4.mb-4
@@ -734,15 +734,147 @@
               p.mb-0 Proviene de los ciudadanos, a través de las veedurías ciudadanas y las asociaciones de usuarios.
 
 
-    p.mb-4 Los aspectos que han sido sujetos de Inspección, Vigilancia y Control, en todos los procesos y procedimientos de los diferentes actores del SGSSS, entre otros, son: 
+    p.mb-5 Los aspectos que han sido sujetos de Inspección, Vigilancia y Control, en todos los procesos y procedimientos de los diferentes actores del SGSSS, entre otros, son: 
+
+
+    .row.mb-5(style='justify-content:center')
+      .col-lg-3.col-md-3.mx-3.mb-4.px-4(style='background-color: #E6F7FE; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px')
+        figure.mb-4.mt-4
+          img.mx-auto(src="@/assets/curso/tema1/tema1-8/icon4.svg", alt="AvatarImg", style="width:116px;")
+        h5.mb-5.text-center Multiafiliación
+      .col-lg-3.col-md-3.mx-3.mb-4.px-4(style='background-color: #E6F7FE; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px ')
+        figure.mb-4.mt-4
+          img.mx-auto(src="@/assets/curso/tema1/tema1-8/icon5.svg", alt="AvatarImg", style="width:116px;")
+        h5.mb-4.text-center Tardanza entre afiliación y carnetización
+      .col-lg-3.col-md-3.mx-3.mb-4.px-4(style='background-color: #E6F7FE; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px ')
+        figure.mb-4.mt-4
+          img.mx-auto(src="@/assets/curso/tema1/tema1-8/icon6.svg", alt="AvatarImg", style="width:116px;")
+        h5.mb-4.text-center Deficiencias en la calidad y oportunidad del servicio
+
+    p.mb-5 Y los entes responsables de realizar Inspección Vigilancia y Control, de todos los actores del Sistema General de Seguridad Social en Salud S.G.S.S.S, son:
+
+    TabsB.color-secundario.mb-5
+      .py-4.py-md-5(titulo="Superintendencia Nacional de Salud" :icono="require('@/assets/curso/tema1/tema1-8/icon7.svg')")
+        .row(style='justify-content: space-around; margin-bottom:80px; margin-top:60px;')
+          .col-md-7.mb-4.mb-md-0
+            h1.mb-4 Superintendencia Nacional de Salud
+            p Organismo de carácter técnico, que cumple funciones de inspección, vigilancia y control en el Sistema General de Seguridad Social en Salud, con personería jurídica, autonomía administrativa y patrimonio independiente, adscrita al Ministerio de Salud.
+        
+          .col-md-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema1/tema1-8/img1.png', alt='Superintendencia Nacional de Salud')
+      
+      .py-4.py-md-5(titulo="Entes territoriales / Entes de control" :icono="require('@/assets/curso/tema1/tema1-8/icon8.svg')")
+        .row(style='justify-content: space-around; margin-bottom:80px; margin-top:60px;')
+          .col-md-7.mb-4.mb-md-0
+            h1.mb-4 Entes territoriales / Entes de control
+            p Las entidades territoriales en los departamentos, los distritos, los municipios y los territorios indígenas, son las secretarías de salud departamentales y municipales, dependencias internas que garantizan que cada uno de los procesos, políticas, metas y actividades se cumplan de acuerdo con lo preestablecido por el Ministerio de Salud y Protección Social, en cuanto a lineamientos y normativa, en todo el espacio geográfico de su competencia.
+        
+          .col-md-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema1/tema1-8/img2.png', alt='Entes territoriales / Entes de control')
+      
+      .py-4.py-md-5(titulo="INVIMA" :icono="require('@/assets/curso/tema1/tema1-8/icon9.svg')")
+        .row(style='justify-content: space-around; margin-bottom:80px; margin-top:60px;')
+          .col-md-7.mb-4.mb-md-0
+            h1.mb-4 INVIMA
+            p Instituto Nacional de Vigilancia de Medicamentos y Alimentos. Entidad de vigilancia y control de carácter técnico científico, que trabaja para la protección de la salud individual y colectiva de los colombianos, mediante la aplicación de las normas sanitarias asociadas al consumo y uso de alimentos, medicamentos, dispositivos médicos, productos cosméticos, Fitoterapéuticos y otros productos objeto de vigilancia sanitaria. El objetivo del INVIMA, es actuar como institución de referencia nacional, en materia sanitaria y ejecutar las políticas formuladas por el Ministerio de Salud y Protección Social en la inspección, vigilancia y control de calidad de los medicamentos, productos biológicos, alimentos, bebidas, cosméticos, dispositivos médicos. 
+        
+          .col-md-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema1/tema1-8/img3.png', alt='')
+
+      .py-4.py-md-5(titulo="Instituto Nacional de Salud" :icono="require('@/assets/curso/tema1/tema1-8/icon10.svg')")
+        .row(style='justify-content: space-around; margin-bottom:80px; margin-top:60px;')
+          .col-md-7.mb-4.mb-md-0
+            h1.mb-4 Instituto Nacional de Salud
+            p Instituto Científico y Técnico, con personería jurídica, autonomía administrativa y patrimonio propio, adscrito al Ministerio de Salud y Protección Social; su jurisdicción aplica a todo el territorio nacional. Su objetivo es el desarrollo y la gestión del conocimiento científico en salud y biomedicina, para contribuir a mejorar las condiciones de salud de las personas; realizar investigación científica básica y aplicada en salud y biomedicina; la promoción de la investigación científica, la innovación y la formulación de estudios, de acuerdo con las prioridades de salud pública, la vigilancia y seguridad sanitaria en la producción de insumos biológicos; y, actuar como laboratorio nacional de referencia y coordinador de las redes especiales, en el marco del Sistema General de Seguridad Social en Salud y del Sistema de Ciencia, Tecnología e Innovación. 
+        
+          .col-md-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema1/tema1-8/img4.png', alt='Instituto Nacional de Salud')
+
+    .row.justify-content-center.centro-fondo--arriba
+      .col-lg-12.ps-5.pe-5
+        separador
+        #t_1_9.titulo-segundo
+          .h2 1.9 Financiación del SGSSS
+        
+        .row.justify-content-center.mb-5
+          .col-lg-3.mb-2
+            figure
+              img.mx-auto(src='@/assets/curso/tema1/tema1-9/img1.svg', alt='imagen de ambiente', style='width:280px')
+          .col-lg-9
+            p.mb-4 Para la atención en Salud, de todo lo relacionado con enfermedad general y con riesgos no laborales, el gobierno destina recursos para la salud, administrados por la ADRES, Administradora de los Recursos del Sistema General de Seguridad Social en Salud, creada a partir del Decreto 1429 del 1 de septiembre de 2016, por el Ministerio de Salud.
+            .cajon.color-secundario.p-4 
+              p.mb-0 Su fin es el de garantizar el apropiado flujo de los recursos y los controles pertinentes; entra en reemplazo del antiguo Fondo de Solidaridad y Garantía (FOSYGA), a manejar los recursos de las siguientes subcuentas:
+        
+        .row.justify-content-center
+          .col-lg-7.mb-4
+            LineaTiempoD.color-secundario
+              p.text-medium(numero='1', titulo='Subcuenta ECAT') Cubre el costo de las atenciones a las víctimas de accidentes de tránsito, a través del SOAT, y la atención a las víctimas de eventos catastróficos y terroristas. 
+              p.text-medium(numero='2', titulo='Subcuenta de compensación') Cobra el valor del descuento de las cotizaciones recaudadas por las EPS del régimen contributivo y demás entidades obligadas a compensar, derivadas de los descuentos en salud y pensión, que se realizan a los empleados y empleadores. 
+              p.text-medium(numero='3', titulo='Subcuenta solidaridad') Recauda los recursos aportados por todos los actores del sistema, con destino al régimen subsidiado.
+              p.text-medium(numero='4', titulo='Subcuenta promoción') Financia las actividades de educación, información y fomento de la salud y de prevención de la enfermedad, las cuales se encuentran en el Plan de Atención Básica – PAB.
+          .col-lg-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema1/tema1-9/img2.svg', alt='imagen de ambiente', style='width:392px')
+
+    p.mb-4.mt-5 En los regímenes exceptuados del sistema, como son las Fuerzas Armadas, Fondo Nacional del Magisterio, Ecopetrol y Universidades públicas, la financiación es responsabilidad de los fondos específicos de cada régimen exceptuado; estos, a la vez, deben aportar recursos para la subcuenta de solidaridad con que financia el Régimen Subsidiado del Sistema General. Igualmente, es importante aclarar que, parte de dinero de la subcuenta de solidaridad, recaudada por ADRES, son recursos que provienen de las empresas de medicina prepagada o planes complementarios de salud; todo lo anterior, ratifica el principio de solidaridad “mutua ayuda entre las personas, las generaciones, los sectores económicos, las regiones y las comunidades, bajo el principio del más fuerte hacia el más débil” del SGSSS.
+    p.mb-5 En este punto, es importante tener presente qué es una cuota:
+
+
+    TabsC.color-secundario.mb-5
+      .py-3.py-md-5(titulo='Copagos')
+        .row(style='justify-content: center')
+          .col-md-6.mb-4.mb-md-0.align-self-center
+            h2 Copagos
+            p Aportes en dinero que deben realizar únicamente los beneficiarios, de acuerdo con el Ingreso Base de Cotización del afiliado cotizante, los cuales corresponden a una parte del valor del servicio prestado y tienen como finalidad, ayudar a financiar el Sistema. Los copagos tienen un tope máximo por la atención de una enfermedad, en el mismo año calendario y un tope máximo acumulado, por atención de distintas enfermedades. 
+
+          .col-md-5.mt-4
+            figure
+              img.mx-auto(
+                src='@/assets/curso/tema1/tema1-9/img3.svg',
+                alt='Copagos',
+                style='width: 328px'
+              )
+
+      .py-3.py-md-5(titulo='Cuotas moderadas')
+        .row(style='justify-content: center')
+          .col-md-6.mb-4.mb-md-0.align-self-center
+            h2 Cuotas moderadas
+            p Aporte en dinero que debe ser pagado por todos los afiliados (cotizantes y beneficiarios), cuando se asiste al médico general, al especialista, al odontólogo, o a consulta con un profesional paramédico. También, cuando se reciben medicamentos, al tomarse exámenes de laboratorio o radiografías de tratamientos ambulatorios. Las cuotas moderadoras tienen por objeto regular la utilización del servicio de salud y estimular su buen uso. Su valor varía de acuerdo con el ingreso base de cotización del trabajador dependiente o independiente. La atención de urgencias NO cobra cuota moderadora, a no ser que el profesional de la salud determine que el servicio solicitado no era por una verdadera urgencia. NO se cobra cuando el usuario forma parte de un programa especial de manejo de enfermedades específicas, en el cual se debe seguir un plan rutinario de actividades de control, como por ejemplo, la atención de la hipertensión arterial o de la diabetes.
+
+          .col-md-5.mt-5
+            figure
+              img.mx-auto(
+                src='@/assets/curso/tema1/tema1-9/img4.svg',
+                alt='Cuotas moderadas',
+                style='width: 330px'
+              )
+
+      .py-3.py-md-5(titulo='Cuotas de recuperación')
+        .row(style='justify-content: center')
+          .col-md-6.mb-4.mb-md-0.align-self-center
+            h2 Cuotas de recuperación
+            p Aportes en dinero que debe pagar el usuario que necesite atención médica y requiera una Tecnología en Salud no incluida en el Plan de Beneficios. La población indígena y la indigente NO pagarán cuotas de recuperación. Las instituciones prestadoras de servicios de Salud, son las responsables de recaudar las cuotas de recuperación, cuando se preste una tecnología en Salud, no Incluida en el Plan de Beneficios. El valor a cancelar por cuota de recuperación, depende del valor de la Tecnología en Salud prestada, y el Nivel del Sisbén al que pertenezca el usuario. Los afiliados con nivel del SISBEN 1, pagarán el 5 % del valor de los servicios, sin exceder el equivalente a un salario mínimo legal vigente por la atención en un mismo evento; los afiliados con nivel del SISBÉN 2, pagarán el 10 % del valor de los servicios, sin exceder el equivalente a dos salarios mínimos mensuales legales vigentes (artículo 2.4.20 del Decreto 780 del 2016).
+
+          .col-md-5.mt-5
+            figure
+              img.mx-auto(
+                src='@/assets/curso/tema1/tema1-9/img5.svg',
+                alt='Cuotas de recuperación',
+                style='width: 308px'
+              )
 
 
 
 
 
-    separador
-    #t_1_9.titulo-segundo
-      .h2 1.9 Financiación del SGSSS
+
+
+
+
 </template>
 
 <script>
