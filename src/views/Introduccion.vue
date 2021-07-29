@@ -20,7 +20,7 @@
         p.mb-4 Es así como en este componente formativo, se estudiará el Sistema General de Seguridad Social en Salud, los principios, las normas y los actores que lo conforman.
         p.mb-4 También se realizará un recorrido a través de las políticas públicas de la salud y de los sistemas de información sobre la salud.
 
-    p.ps-4 #[strong Muchos éxitos en este proceso de aprendizaje!]
+    p.ps-4 #[strong ¡Muchos éxitos en este proceso de aprendizaje!]
 
       
     

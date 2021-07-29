@@ -5,7 +5,7 @@
     .titulo-principal.mb-0
       .titulo-principal__numero
         span 3
-      h1 Sistema Obligatorio de Garantía de Calidad de Atención en Salud del Sistema General de Seguridad Social en Salud -SOGCS-
+      h1 Sistema Obligatorio de Garantía de Calidad de Atención en Salud - SOGCS - del Sistema General de Seguridad Social en Salud
 
     .row.mb-5.justify-content-center.fondo-esquina.pt-4
       .col-lg-11
@@ -15,8 +15,8 @@
             .bloque-texto-b.color-primario.p-4.ms-4.mb-5
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
-                span.mb-0(style='font-size: 24px; font-weight: bold') Es el conjunto de instituciones, normas, requisitos, mecanismos y procesos deliberados y sistemáticos que desarrolla el sector salud para generar, mantener y mejorar la calidad de los servicios de salud en el país.
-                i.fas.fa-quote-right
+                h3.mb-0(style='font-family: roboto;font-size: 24px; font-weight: bold') Es el conjunto de instituciones, normas, requisitos, mecanismos y procesos deliberados y sistemáticos que desarrolla el sector salud para generar, mantener y mejorar la calidad de los servicios de salud en el país.
+                i.fas.fa-quote-right.d-flex.justify-content-end
             p.mb-4 Las acciones que desarrolle el SOGCS, se orientarán hacia la mejora de los resultados de la atención en salud, centrados en el usuario, y que van más allá de la verificación de la existencia de estructura o de la documentación de procesos, los cuales solo constituyen prerrequisito para alcanzar los mencionados resultados.
           .col-lg-3.align-self-top.p-0
             figure
@@ -60,7 +60,7 @@
           .row
             .col-md-12
               h3 Auditoría para el mejoramiento de la calidad de la atención de salud
-              p Es el conjunto de actividades que implican la realización de actividades de evaluación, seguimiento y mejoramiento de procesos definidos como prioritarios, y la comparación entre la calidad observada y la calidad esperada, la cual debe estar previamente definida mediante guías y normas técnicas, científicas y administrativas. Los programas de auditoria deberán ser concordantes con la intencionalidad de los estándares de acreditación, y superiores a los que se determinan como básicos en el Sistema Único de Habilitación. Los procesos de auditoria son obligatorios para las Entidades Departamentales, Distritales y Municipales de Salud, las Instituciones Prestadoras de Servicios de Salud y las Empresas Administradoras de Planes de Beneficio.
+              p Es el conjunto de actividades que implican la realización de actividades de evaluación, seguimiento y mejoramiento de procesos definidos como prioritarios, y la comparación entre la calidad observada y la calidad esperada, la cual debe estar previamente definida mediante guías y normas técnicas, científicas y administrativas. Los programas de auditoría deberán ser concordantes con la intencionalidad de los estándares de acreditación, y superiores a los que se determinan como básicos en el Sistema Único de Habilitación. Los procesos de auditoría son obligatorios para las Entidades Departamentales, Distritales y Municipales de Salud, las Instituciones Prestadoras de Servicios de Salud y las Empresas Administradoras de Planes de Beneficio.
 
           .row
             .col-md-12.mb-4.mb-md-0
@@ -72,7 +72,7 @@
               h3 Sistemas de información en salud
               p Se refiere a la integración de actividades que buscan satisfacer las necesidades de información de uno o más grupos de interés. Un servicio de información se describe como un proceso: qué recibe como entrada y qué produce como salida, de acuerdo a un contrato de servicio que se debe cumplir.
 
-    p.mb-5 Es importante reconocer que la información se ha convertido en un activo altamente valioso para las instituciones prestadoras de servicios de salud, lo que redunda en satisfacción para las familias, comunidades y habitantes del territorio nacional, ya que la misma se convierte en un elemento esencial que entrega beneficios para las personas, a través de la generación del conocimiento; es por esta razón, que el Ministerio de Salud y Protección Social a través de la Ley 1438 de 2011 artículo 112, es el responsable de articular el manejo de la administración de la información, a través del sistema Integrado de Información de Protección Social, SISPRO.
+    p.mb-5 Es importante reconocer que la información se ha convertido en un activo altamente valioso para las instituciones prestadoras de servicios de salud, lo que redunda en satisfacción para las familias, comunidades y habitantes del territorio nacional, ya que la misma se convierte en un elemento esencial que entrega beneficios para las personas, a través de la generación del conocimiento; es por esta razón, que el Ministerio de Salud y Protección Social a través de la Ley 1438 de 2011 artículo 112, es el responsable de articular el manejo de la administración de la información, a través del Sistema Integrado de Información de la Protección Social, SISPRO.
     .row.justify-content-center.mb-4
       .col-lg-3.mb-2
         figure
@@ -85,13 +85,13 @@
         .bloque-texto-b.color-primario.p-4.ms-4.mb-5
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            span.mb-0(style='font-size: 22px; font-weight: bold') Con el fin de alcanzar un manejo veraz, oportuno, pertinente y transparente de los diferentes tipos de datos generados por todos los actores, en sus diferentes niveles y su transformación en información para la toma de decisiones, se implementará una política que incluya un sistema único de información en salud, que integre los componentes demográficos, socioeconómicos, epidemiológicos, clínicos, administrativos y financieros. Los agentes del Sistema deben suministrar la información que requiera el Ministerio de Salud y Protección Social, en los términos y condiciones que se determine.
-            i.fas.fa-quote-right
-            .bloque-texto-d__autor 
+            h3.mb-2(style='font-size: 22px; font-weight: bold') Con el fin de alcanzar un manejo veraz, oportuno, pertinente y transparente de los diferentes tipos de datos generados por todos los actores, en sus diferentes niveles y su transformación en información para la toma de decisiones, se implementará una política que incluya un sistema único de información en salud, que integre los componentes demográficos, socioeconómicos, epidemiológicos, clínicos, administrativos y financieros. Los agentes del Sistema deben suministrar la información que requiera el Ministerio de Salud y Protección Social, en los términos y condiciones que se determine.
+            i.fas.fa-quote-right.d-flex.justify-content-end.mb-4
+            .bloque-texto-d__autor
               .h5.mb-0 - (Artículo 19 Ley 1751 de 2015).
 
     .cajon.color-secundario.p-4.mb-5
-      p.mb-0 De acuerdo con las anteriores premisas y lineamientos, es necesario dar la razón a la evolución que presentan los datos para convertirse en activos de valor y generar objetivos concretos que garanticen la toma de decisiones en todos niveles jerárquicos de las instituciones prestadoras de servicios de salud, públicas y privadas, y del ente rector, Ministerio de Salud y Protección Social; por lo tanto, la siguiente gráfica presenta #[strong la evolución y trasformación de los datos en conocimiento:]
+      p.mb-0 De acuerdo con las anteriores premisas y lineamientos, es necesario dar la razón a la evolución que presentan los datos para convertirse en activos de valor y generar objetivos concretos que garanticen la toma de decisiones en todos niveles jerárquicos de las instituciones prestadoras de servicios de salud, públicas y privadas, y del ente rector, Ministerio de Salud y Protección Social; por lo tanto, la siguiente gráfica presenta #[strong la evolución y transformación de los datos en conocimiento:]
 
     .row.justify-content-center.mb-5
       .col-lg-9
@@ -117,7 +117,7 @@
             alt='Sistema ingrado de información de la protección social'
           )
       .col-lg-8
-        p.mb-0 El Ministerio de Salud y Protección Social, creó el sistema Integrado de Información de la Protección Social - SISPRO donde los ciudadanos pueden obtener información oportuna, suficiente y estandarizada, para la toma de decisiones del Sector Salud y Protección Social. SISPRO está conformado por bases de datos y sistemas de información del sector sobre oferta y demanda de servicios de salud, calidad de los servicios, aseguramiento, financiamiento, y promoción social. Dentro de este portal, se encuentra disponible una serie de catálogos que le permiten a las entidades adscritas al Sistema General de Seguridad Social en Salud y a la ciudadanía, obtener información consolidada de los diversos repositorios de datos que posee el Ministerio. También se cuenta con la #[strong Plataforma de transporte de Información – PISIS] para el intercambio de información entre los diversos actores del sistema.
+        p.mb-0 El Ministerio de Salud y Protección Social, creó el Sistema Integrado de Información de la Protección Social - SISPRO donde los ciudadanos pueden obtener información oportuna, suficiente y estandarizada, para la toma de decisiones del Sector Salud y Protección Social. SISPRO está conformado por bases de datos y sistemas de información del sector sobre oferta y demanda de servicios de salud, calidad de los servicios, aseguramiento, financiamiento, y promoción social. Dentro de este portal, se encuentra disponible una serie de catálogos que le permiten a las entidades adscritas al Sistema General de Seguridad Social en Salud y a la ciudadanía, obtener información consolidada de los diversos repositorios de datos que posee el Ministerio. También se cuenta con la #[strong Plataforma de transporte de Información – PISIS] para el intercambio de información entre los diversos actores del sistema.
 
     
 
@@ -146,7 +146,7 @@
               p.text-medium(
                 numero='1',
                 titulo='REPS - Registro Especial de Prestadores de Servicios de Salud'
-              ) base de datos de las Entidades Departamentales y Distritales de Salud, en la cual se efectúa el registro de las instituciones Prestadoras de Servicios de Salud, que se encuentren habilitadas y consolidadas por parte del Ministerio de Salud y Protección Social. Resolución 3100 DE 2019.
+              ) Base de datos de las Entidades Departamentales y Distritales de Salud, en la cual se efectúa el registro de las instituciones Prestadoras de Servicios de Salud, que se encuentren habilitadas y consolidadas por parte del Ministerio de Salud y Protección Social. Resolución 3100 DE 2019.
               p.text-medium(
                 numero='2',
                 titulo='RIPS - Registros Individuales de Prestación de Servicios de Salud'
@@ -154,15 +154,15 @@
               p.text-medium(
                 numero='3',
                 titulo='ReTHUS - Registro Único Nacional del Talento Humano en Salud'
-              ) sistema de información del Ministerio de Salud y Protección Social del talento humano en salud, que cumple con los requisitos establecidos en la Ley 1164 de 2007; proceso con el cual se entiende que dicho personal se encuentra autorizado para el ejercicio de una profesión u ocupación del área de la salud. Igualmente, marca la información sobre las sanciones del talento humano en salud que, según el caso, reportan los Tribunales ético-disciplinarios del área de la salud, autoridades competentes, o los particulares a quienes se les deleguen las funciones públicas.
+              ) Sistema de información del Ministerio de Salud y Protección Social del talento humano en salud, que cumple con los requisitos establecidos en la Ley 1164 de 2007; proceso con el cual se entiende que dicho personal se encuentra autorizado para el ejercicio de una profesión u ocupación del área de la salud. Igualmente, marca la información sobre las sanciones del talento humano en salud que, según el caso, reportan los Tribunales ético-disciplinarios del área de la salud, autoridades competentes, o los particulares a quienes se les deleguen las funciones públicas.
               p.text-medium(
                 numero='4',
                 titulo='RUAF - Registro Único de Afiliados'
               ) Sistema de información que consolida las afiliaciones que reportan las entidades y administradoras del Sistema de Protección Social, de acuerdo con lo establecido en la norma vigente.
               p.text-medium(
                 numero='5',
-                titulo='BEDUA - Base de datos única de afiliados'
-              ) Sistema de información que consolida las afiliaciones que reportan las entidades y administradoras del Sistema de Protección Social, de acuerdo con lo establecido en la norma vigente.
+                titulo='BDUA - Base de datos única de afiliados'
+              ) Suministra la información para el reconocimiento de los pagos periódicos que se le hace a las EPS, por aseguramiento en salud de los colombianos. Resolución 4622 del 2016.
               p.text-medium(
                 numero='6',
                 titulo='SIVIGILA - Sistema Nacional de Vigilancia en Salud Pública'

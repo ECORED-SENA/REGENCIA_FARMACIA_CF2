@@ -40,8 +40,8 @@
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            span.mb-0(style='font-size: 24px; font-weight: bold') El conjunto de instituciones, normas y procedimientos, de que disponen la persona y la comunidad, para gozar de una calidad de vida, mediante el cumplimiento progresivo de los planes y programas que el Estado y la sociedad desarrollen para proporcionar la cobertura integral de las contingencias, especialmente las que menoscaban la salud y la capacidad económica de los habitantes del territorio nacional, con el fin de lograr el bienestar individual y la integración de la comunidad
-            i.fas.fa-quote-right
+            h3.mb-4(style='font-size: 24px; font-weight: bold') El conjunto de instituciones, normas y procedimientos, de que disponen la persona y la comunidad, para gozar de una calidad de vida, mediante el cumplimiento progresivo de los planes y programas que el Estado y la sociedad desarrollen para proporcionar la cobertura integral de las contingencias, especialmente las que menoscaban la salud y la capacidad económica de los habitantes del territorio nacional, con el fin de lograr el bienestar individual y la integración de la comunidad
+            i.fas.fa-quote-right.d-flex.justify-content-end
       .col-lg-3.align-self-center.p-0
         figure
           img(
@@ -204,11 +204,11 @@
     .row.justify-content-center.centro-fondo--arriba
       .col-lg-12.ps-5.pe-5
         p.mb-4 La normativa que fortalece y apalanca el S.G.S.S.S, se basa en leyes, decretos y resoluciones que durante 28 años han sido parte de la transformación y desarrollo del sistema, siempre enfocándose en la búsqueda de una mayor cobertura y mejor oportunidad de atención de las necesidades de salud que tenemos todos los colombianos; a continuación, se revisará la línea de tiempo con una parte significativa de la normativa que ha generado un cambio en la historia de todo el sistema de salud.
-        p.mb-4 Estas normas son las siguientes:
+        p.mb-5 Estas normas son las siguientes:
         .row.justify-content-center.mb-5
           .col-lg-10
-            p.mb-4 #[strong Leyes]
-          .col-lg-6
+            //p.mb-4 #[strong Leyes]
+          .col-lg-6.mb-5
             LineaTiempoD.color-secundario
               p.text-medium(numero='1', titulo='Ley 100 - 1993') Por la cual se crea el Sistema de Seguridad Social Integral y se dictan otras disposiciones.
 
@@ -237,7 +237,7 @@
           )
 
       .col-lg-6
-        p.mb-4 #[strong Leyes]
+        //p.mb-4 #[strong Leyes]
         LineaTiempoD.color-secundario
           p.text-medium(numero='6', titulo='Decreto 1013 DE 1998') Por el cual se reglamenta el funcionamiento de la subcuenta de compensación del Fondo de Solidaridad y Garantía, Fosyga, y se deroga parcialmente el Decreto 1283 de 1996.
 
@@ -255,7 +255,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        p.mb-4 #[strong Resoluciones]
+        //p.mb-4 #[strong Resoluciones]
       .col-lg-7
         LineaTiempoD.color-secundario
           p.text-medium(numero='13', titulo='Resolución 429 – 2016') Por medio de la cual se adopta la Política de Atención Integral en Salud.
@@ -345,12 +345,12 @@
     p.mb-4 La Ley 1122 de 2007 define el aseguramiento como: 
 
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-9
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            span.mb-0(style='font-size: 20px; font-weight: bold') la administración del riesgo financiero, la gestión del riesgo en salud, la articulación de los servicios, que garantice el acceso efectivo, la garantía de la calidad en la prestación de los servicios de salud y la representación del afiliado ante el prestador y los demás actores sin perjuicio de la autonomía del usuario.
-            i.fas.fa-quote-right
+            h3.mb-4(style='font-size: 20px; font-weight: bold') la administración del riesgo financiero, la gestión del riesgo en salud, la articulación de los servicios, que garantice el acceso efectivo, la garantía de la calidad en la prestación de los servicios de salud y la representación del afiliado ante el prestador y los demás actores sin perjuicio de la autonomía del usuario.
+            i.fas.fa-quote-right.d-flex.justify-content-end
 
     .row.justify-content-center.mb-4
       .col-lg-8
@@ -450,7 +450,7 @@
         ul.lista-ul.mb-4.ms-5
           li 
             i.fas.fa-atom
-            p.mb-0 La declaración de la veracidad de los datos informados y del cumplimiento de las condiciones p.mb-0ara pertenecer al régimen contributivo o al régimen subsidiado. 
+            p.mb-0 La declaración de la veracidad de los datos informados y del cumplimiento de las condiciones para pertenecer al régimen contributivo o al régimen subsidiado. 
           li 
             i.fas.fa-atom
             p.mb-0 La aceptación de las condiciones propias del régimen contributivo o subsidiado y aquellas relacionadas con las cuotas moderadoras y copagos para la prestación de los servicios, de conformidad con las normas vigentes, las cuales deberán ser informadas al afiliado.
@@ -517,7 +517,7 @@
                 figure
                   img(src='@/assets/curso/tema1/tema1-7/img1.svg', alt='imagen avatar')
             h2.text-center.mb-4 IPS
-            p.text-center Instituciones Prestadoras de <br>Servicios de Salud.
+            p.text-center Instituciones Prestadoras de <br>Servicios de Salud
           .col-md.tarjeta.color-secundario.p-5
             .row.justify-content-center(style='margin-bottom:40px;')
               .col-4
@@ -596,7 +596,7 @@
             LineaTiempoD.color-secundario
               p.text-medium(numero='1', titulo='¿Qué es?') Es un conjunto articulado de prestadores de servicios de salud, ubicados en el mismo espacio geográfico, que trabajan de manera organizada y coordinada, en un proceso de integralidad con la entidad responsable de pago. 
               p.text-medium(numero='2', titulo='¿Qué busca?') Garantizar la calidad de la atención en salud y brindar, una respuesta adecuada a las necesidades de la población, en condiciones de accesibilidad, continuidad, oportunidad, integralidad y eficiencia en el uso de los recursos. 
-              p.text-medium(numero='3', titulo='¿Cómo está formada?') Está conformada por cada entidad responsable de pago e integrada a la red departamental de prestadores de servicios de salud, definida por la entidad territorial departamental en su documento de red, indicando a los prestadores con su identificación, ubicación geográfica, grado de complejidad de servicios habilitados, mecanismos de difusión y comunicación a los usuarios, así como también los indicadores definidos por el sistema obligatorio de garantía de calidad de la atención en salud, además del diseño, organización y documentación del sistema de referencia y contrarreferencia, que involucre las normas operacionales, sistemas de información y recursos logísticos, requeridos para la operación de la red. 
+              p.text-medium(numero='3', titulo='¿Cómo está conformada?') Está conformada por cada entidad responsable de pago e integrada a la red departamental de prestadores de servicios de salud, definida por la entidad territorial departamental en su documento de red, indicando a los prestadores con su identificación, ubicación geográfica, grado de complejidad de servicios habilitados, mecanismos de difusión y comunicación a los usuarios, así como también los indicadores definidos por el sistema obligatorio de garantía de calidad de la atención en salud, además del diseño, organización y documentación del sistema de referencia y contrarreferencia, que involucre las normas operacionales, sistemas de información y recursos logísticos, requeridos para la operación de la red. 
 
         p.mb-4 Para comprender qué es el sistema de referencia y contrareferencia, primero hay que definir qué es referencia y qué es contrareferencia.
 
@@ -648,7 +648,7 @@
         .row(style='justify-content: center')
           .col-md-6.mb-4.mb-md-0.align-self-center
             h2 Atención domiciliaria
-            p Prestación de servicios de salud, directamente en la casa o domicilio del paciente; incluye servicios personales de enfermería, ocupacional y consulta médica. La hospitterapia alización en casa, concentra la atención en la familia y o el cuidador del paciente, dependiente o con alto riesgo de complicación, en un servicio de hospitalización. El paciente que va a recibir atención domiciliaria, debe cumplir con los criterios de estabilidad clínica, cuidadores competentes, entorno apropiado, y disponibilidad del servicio profesional que supervise el tratamiento. Estos cuidados permiten reducir costos hospitalarios, mejorar la calidad de la atención, y favorecer la permanencia de los adultos mayores o personas con dependencia funcional, en su entorno familiar y/o en la comunidad.
+            p Prestación de servicios de salud, directamente en la casa o domicilio del paciente; incluye servicios personales de enfermería, ocupacional y consulta médica. La hospitalización en casa, concentra la atención en la familia y o el cuidador del paciente, dependiente o con alto riesgo de complicación, en un servicio de hospitalización. El paciente que va a recibir atención domiciliaria, debe cumplir con los criterios de estabilidad clínica, cuidadores competentes, entorno apropiado, y disponibilidad del servicio profesional que supervise el tratamiento. Estos cuidados permiten reducir costos hospitalarios, mejorar la calidad de la atención, y favorecer la permanencia de los adultos mayores o personas con dependencia funcional, en su entorno familiar y/o en la comunidad.
 
           .col-md-5
             figure

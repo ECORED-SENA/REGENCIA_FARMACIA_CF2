@@ -95,7 +95,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '3',
         titulo:
-          'Sistema Obligatorio de Garantía de Calidad de Atención en Salud del Sistema General de Seguridad Social en Salud - SOGCS-',
+          'Sistema Obligatorio de Garantía de Calidad de Atención en Salud - SOGCS - del Sistema General de Seguridad Social en Salud',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -156,47 +156,33 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Decreto 780 del 2016 “Por medio del cual se expide el decreto único reglamentario del sector Salud. Ministerio de Salud y Protección Social. Mayo 6 de 2016. Departamento Nacional de Planeación. (s.f.). Salud Pública.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.dnp.gov.co/programas/desarrollo-social/subdireccion-de-salud/Paginas/salud-publica.aspx',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Ministerio de la Protección Social. (2006). Decreto Número 1011 de 2006. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/DECRETO%201011%20DE%202006.pdf',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Ministerio de la Protección Social. (2008). Lineamientos para la implementación de la Política de Seguridad del Paciente.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B2n%200112%20de%202012%20-%20Documentos%20de%20apoyo%202.pdf',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Ministerio de Salud y Protección Social. (2020). Plan de calidad de los componentes de información.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/OT/plan-calidad-componentes-informacion-minsalud-2020.pdf',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Ministerio de Salud y Protección Social. (2019). Resolución Número 2626 de 2019. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-2626-de-2019.pdf',
     },
   ],
   glosario: [
@@ -271,7 +257,7 @@ export default {
       descarga: '/downloads/material-complemetario/Decreto 0780 de 2016.pdf',
     },
     {
-      texto: 'PLAN DE CALIDAD COMPONENTE DE LA INFORMACIÓN.',
+      texto: 'Plan de Calidad de los Componentes de Información',
       tipo: 'PDF',
       descarga:
         '/downloads/material-complemetario/plan-calidad-componentes-informacion-minsalud-2020.pdf',
@@ -346,20 +332,20 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Diseñadora Instruccional – Revisora Metodológica y Pedagógica',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
-      },
-      {
         nombre: 'Emilia Sarmiento Mora',
-        cargo: 'Experta Temática',
+        cargo: 'Experta temática',
         centro: 'Centro de Servicios de Salud Regional Antioquia',
       },
       {
         nombre: 'Leydy Jhuliana Jaramillo Mejía',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Diseñadora instruccional – Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
       },
       {
         nombre: 'Sandra Patricia Hoyos Sepúlveda',
@@ -381,7 +367,7 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Antonio Vecino Valero'],
+        nombre: ['Jesus Antonio Vecino Valero'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -391,7 +377,7 @@ export default {
         cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
-      {
+      /*{
         nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
@@ -402,15 +388,15 @@ export default {
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
+      },*/
       {
         nombre: 'John Andres Ayala Angarita',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

@@ -41,7 +41,7 @@
         .row(style='justify-content: space-around')
           .col-md-5.mb-4.mb-md-0.align-self-top
             h2.mb-4 Plan de salud pública - PDSP 2012-2021 
-            p.mb-4 Es una apuesta política por la equidad en salud, entendida como la #[strong “ausencia de diferencias en salud entre grupos sociales, consideradas innecesarias, evitables e injustas”] (Whitehead, 1992). 
+            p.mb-4 Es una apuesta política por la equidad en salud, entendida como #[strong “la ausencia de diferencias en salud entre grupos sociales, consideradas innecesarias, evitables e injustas”] (Whitehead, 1992). 
           
             p Esto implica que la equidad en salud se logra cuando todas las personas alcanzan su potencial de salud, independientemente de sus condiciones sociales, culturales y económicas.
 
@@ -76,9 +76,9 @@
           .col-md-6.mb-4.mb-md-0.align-self-top
             h2.mb-4 Política Atención Integral de Salud - MAITE – RIAS
             p La Política de Atención Integral en Salud, tiene por objetivo orientar el Sistema hacia la generación de las mejores condiciones de la salud de la población, mediante la regulación de las condiciones de intervención de los agentes hacia el
-              b “acceso a los servicios de salud, de manera oportuna, eficaz y con calidad para la preservación, el mejoramiento y la promoción de la salud” 
+              b  “acceso a los servicios de salud, de manera oportuna, eficaz y con calidad para la preservación, el mejoramiento y la promoción de la salud” 
               b-none (Ley 1751, Estatutaria de Salud), para así garantizar el derecho a la salud, de acuerdo con la Ley Estatutaria 1751 de 2015. La integralidad definida en la política, comprende la igualdad de trato y oportunidades en el acceso (principio de equidad) y el abordaje integral de la salud y la enfermedad, consolidando
-              b “las actividades de promoción, prevención, diagnóstico, tratamiento, rehabilitación y paliación para todas las personas
+              b  “las actividades de promoción, prevención, diagnóstico, tratamiento, rehabilitación y paliación para todas las personas”
               b-none  (Ley 1751 de 2015).
 
           .col-md-5.align-self-center
