@@ -256,7 +256,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         //p.mb-4 #[strong Resoluciones]
-      .col-lg-7
+      .col-lg-7.mb-4
         LineaTiempoD.color-secundario
           p.text-medium(numero='13', titulo='Resolución 429 – 2016') Por medio de la cual se adopta la Política de Atención Integral en Salud.
           p.text-medium(numero='14', titulo='Resolución 4622 – 2016') Por la cual se establece el reporte de los datos de afiliación al Sistema General de Seguridad Social en Salud, a planes voluntarios, Regímenes Especial y de Excepción, y de las personas privadas de la libertad, bajo la custodia y vigilancia del INPEC.
@@ -592,7 +592,7 @@
           .col-lg-4
             figure.mb-5
               img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img7.svg', alt='imagen ambientas', style='width:465px')
-          .col-lg-7
+          .col-lg-7.mb-5
             LineaTiempoD.color-secundario
               p.text-medium(numero='1', titulo='¿Qué es?') Es un conjunto articulado de prestadores de servicios de salud, ubicados en el mismo espacio geográfico, que trabajan de manera organizada y coordinada, en un proceso de integralidad con la entidad responsable de pago. 
               p.text-medium(numero='2', titulo='¿Qué busca?') Garantizar la calidad de la atención en salud y brindar, una respuesta adecuada a las necesidades de la población, en condiciones de accesibilidad, continuidad, oportunidad, integralidad y eficiencia en el uso de los recursos. 

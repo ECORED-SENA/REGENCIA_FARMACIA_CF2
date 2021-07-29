@@ -15,7 +15,7 @@
             .bloque-texto-b.color-primario.p-4.ms-4.mb-5
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
-                h3.mb-0(style='font-family: roboto;font-size: 24px; font-weight: bold') Es el conjunto de instituciones, normas, requisitos, mecanismos y procesos deliberados y sistemáticos que desarrolla el sector salud para generar, mantener y mejorar la calidad de los servicios de salud en el país.
+                h3.mb-0(style='font-size: 24px; font-weight: bold') Es el conjunto de instituciones, normas, requisitos, mecanismos y procesos deliberados y sistemáticos que desarrolla el sector salud para generar, mantener y mejorar la calidad de los servicios de salud en el país.
                 i.fas.fa-quote-right.d-flex.justify-content-end
             p.mb-4 Las acciones que desarrolle el SOGCS, se orientarán hacia la mejora de los resultados de la atención en salud, centrados en el usuario, y que van más allá de la verificación de la existencia de estructura o de la documentación de procesos, los cuales solo constituyen prerrequisito para alcanzar los mencionados resultados.
           .col-lg-3.align-self-top.p-0
